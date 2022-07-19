@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather',sans-serif;
+}
+h1{
+    font-family: 'Sacramento','Montez',cursive;
+    font-size: 5rem; /*1rem = 100% = 16px*/  /*em has inherited property rem doesn't*/
+    position: relative;
+    bottom: 150px;
+    color: #66BFBF;
+    margin-bottom: 0;
+    
+}
+#intro{
+    position: relative;
+    bottom: 170px;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
+}
+h2{
+    font-weight: normal;
+    color: #11999E;
+    font-size: 2rem;
+    font-family: 'Montez',sans-serif;
+}
+h3,a{
+    font-family: 'Montserrat',sans-serif;
+    color: #11999E;
+}
+#top-container{
+    background-color: #06283D;
+    width : 100%;
+    height: 620px;
+    color: #DFF6FF;
+    padding-top: 20px;
+}
+
+.moon{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    position: relative;
+    right: 340px;
+    top : 70px;
+}
+.top-cloud{
+    display: block;
+    position: relative;
+    margin-left: 1000px;
+}
+.bottom-cloud{
+    display: block;
+    position: absolute;
+    top : 250px;
+    left : 100px;
+}
+.mountain{
+    display: inline-block;
+    position: relative;
+    bottom: 284px;
+    width: 670px;
+    height: 500px;
+}
+.middle-container{
+    background-color: #daffff;
+}
+.me{
+    width: 280px;
+    height: 280px;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.code, .play{
+        width: 25%;
+        height: 25%;
+        border-radius: 100%;
+        float: left;
+        margin-right: 30px;
+}
+.play{
+    width: 25%;
+        height: 25%;
+        border-radius: 100%;
+        float: right;
+        margin-left: 30px;
+}
+hr{
+        width: 5%;
+        border: none;
+        border-top: 8px dotted #66BFBF;
+        height: 2px;
+        margin :100px auto;
+
+}
+.contact-me{
+    height:250px;
+    
+    
+}
+.btn{
+    background-color: #06283D;
+    background-image: linear-gradient(#11cdd4,#06283D);
+    color: #DFF6FF;
+    border-radius: 28px;
+    height: 30px;
+    font-size: 28px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.love{
+    margin-bottom: 50px;
+}
+.bottom-container {
+    background-color: #06283D;
+    margin-bottom: 0px;
+    height: 80px;
+    padding: 40px 0px 0px 0px;
+    color:#66BFBF
+}
+.footer-link{
+    text-decoration: none;
+    margin: 0px 15px;
+}
